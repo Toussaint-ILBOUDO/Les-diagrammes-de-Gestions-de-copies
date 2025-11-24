@@ -314,7 +314,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="L1s4meMfDo255hkcbmLN" name="Dia_cas_utilisation">
-    <mxGraphModel dx="2304" dy="1531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -569,7 +569,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NHk3onr87pzudm1ppHo9" name="Dia_seq_connect">
-    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1447" dy="1463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -577,10 +577,10 @@
           <mxGeometry height="540" width="670" x="-250" y="-740" as="geometry" />
         </mxCell>
         <mxCell id="D9wjPB1OLHR_Kx_LbeP1-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="utilisateur" vertex="1">
-          <mxGeometry height="300" width="100" x="-120" y="-760" as="geometry" />
+          <mxGeometry height="520" width="100" x="-120" y="-760" as="geometry" />
         </mxCell>
         <mxCell id="D9wjPB1OLHR_Kx_LbeP1-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Système" vertex="1">
-          <mxGeometry height="300" width="100" x="110" y="-760" as="geometry" />
+          <mxGeometry height="520" width="100" x="110" y="-760" as="geometry" />
         </mxCell>
         <mxCell id="D9wjPB1OLHR_Kx_LbeP1-4" parent="D9wjPB1OLHR_Kx_LbeP1-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="30" width="10" x="45" y="80" as="geometry" />
@@ -591,7 +591,7 @@
         <mxCell id="D9wjPB1OLHR_Kx_LbeP1-10" parent="D9wjPB1OLHR_Kx_LbeP1-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="30" width="10" x="45" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="D9wjPB1OLHR_Kx_LbeP1-11" edge="1" parent="D9wjPB1OLHR_Kx_LbeP1-3" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" target="D9wjPB1OLHR_Kx_LbeP1-10" value="4: Vérification des informations">
+        <mxCell id="D9wjPB1OLHR_Kx_LbeP1-11" edge="1" parent="D9wjPB1OLHR_Kx_LbeP1-3" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" target="D9wjPB1OLHR_Kx_LbeP1-10" value="5: Vérification des données saisies">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="85" y="210" />
@@ -613,6 +613,27 @@
         <mxCell id="D9wjPB1OLHR_Kx_LbeP1-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" target="D9wjPB1OLHR_Kx_LbeP1-7" value="3: Saisir son e-mail et son mot de passe">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-70.5" y="-595" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNgPwLta7dltcQmT_4Ij-1" edge="1" parent="1" source="D9wjPB1OLHR_Kx_LbeP1-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="D9wjPB1OLHR_Kx_LbeP1-7" value="4: clique sur le bouton de connexion">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-70" y="-570" as="sourcePoint" />
+            <mxPoint x="10" y="-570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNgPwLta7dltcQmT_4Ij-2" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="200" width="480" x="-180" y="-540" as="geometry" />
+        </mxCell>
+        <mxCell id="mNgPwLta7dltcQmT_4Ij-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[informations incorrects]" vertex="1">
+          <mxGeometry height="30" width="130" x="-170" y="-520" as="geometry" />
+        </mxCell>
+        <mxCell id="mNgPwLta7dltcQmT_4Ij-4" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=20;" value="loop Boucle" vertex="1">
+          <mxGeometry height="120" width="410" x="-160" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="mNgPwLta7dltcQmT_4Ij-5" edge="1" parent="1" source="D9wjPB1OLHR_Kx_LbeP1-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" value="4a. notifie : &quot;&lt;br/&gt;&lt;br/&gt;&lt;p class=&quot;MsoListParagraph&quot;&gt;&lt;span style=&quot;mso-bidi-font-size:12.0pt;line-height:&lt;br/&gt;150%;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;mso-ascii-theme-font:major-bidi;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-hansi-theme-font:major-bidi;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:major-bidi&quot;&gt;’email&lt;br/&gt;ou mot de passe&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-size:12.0pt;line-height:150%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;&lt;br/&gt;mso-ascii-theme-font:major-bidi;mso-fareast-font-family:Calibri;mso-fareast-theme-font:&lt;br/&gt;minor-latin;mso-hansi-theme-font:major-bidi;mso-bidi-theme-font:major-bidi;&lt;br/&gt;mso-ansi-language:FR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Incorrect.&lt;br/&gt;Veuillez réessayer&quot;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="-470" as="sourcePoint" />
+            <mxPoint x="-70" y="-470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
